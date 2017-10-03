@@ -1,0 +1,100 @@
+@media (max-width:480px){
+    #sidebar.affix-top {
+        width:100%;
+    }
+
+    #sidebar.affix {
+        width:100%;
+    }
+    #sidebar.affix-top {
+        position: static;
+    }
+
+    #sidebar.affix {
+        position: static;
+    }
+}
+@media (min-width:481px) and (max-width:767px){
+    #sidebar.affix-top {
+        width:100%;
+    }
+
+    #sidebar.affix {
+        width:100%;
+    }
+    #sidebar.affix-top {
+        position: static;
+    }
+
+    #sidebar.affix {
+        position: static;
+    }
+}
+@media (min-width:768px) and (max-width:991px){ 
+    #sidebar.affix-top {
+        width:100%;
+    }
+
+    #sidebar.affix {
+        width:32%;
+    }
+    #sidebar.affix-top {
+        position: static;
+    }
+
+    #sidebar.affix {
+        position: fixed;
+        top:10px;
+    }
+}
+@media (width:980px){
+    #sidebar.affix-top {
+        width:100%;
+    }
+
+    #sidebar.affix {
+        width:24.5%;
+    }
+    #sidebar.affix-top {
+        position: static;
+    }
+
+    #sidebar.affix {
+        position: fixed;
+        top:10px;
+    }
+}
+@media (min-width:992px) and (max-width:1199px){
+    #sidebar.affix-top {
+        width:100%;
+    }
+
+    #sidebar.affix {
+        width:33%;
+    }
+    #sidebar.affix-top {
+        position: static;
+    }
+
+    #sidebar.affix {
+        position: fixed;
+        top:10px;
+    }
+}
+@media (min-width:1200px){    
+    #sidebar.affix-top {
+        width:100%;
+    }
+
+    #sidebar.affix {
+        width:21.5%;
+    }
+    #sidebar.affix-top {
+        position: static;
+    }
+
+    #sidebar.affix {
+        position: fixed;
+        top:10px;
+    }
+}
